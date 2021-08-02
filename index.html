@@ -9,24 +9,28 @@
     <title>Yochran | Home</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
-    <div class="nav-bar" id="naa">
+    <div id="background"></div>
+
+    <div class="nav-bar" id="nav-bar">
+        &nbsp;
         <div class="nav-buttons-container">
-            <a href="#header" class="nav-title" style="text-decoration: none; font-size: 1.5rem;">Yochran</a>
+            <a href="#home" class="nav-title" style="text-decoration: none; font-size: 1.5rem;">Yochran</a>
 
-
-            <a href="#header" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Home</a>
+            <a href="#home" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Home</a>
             &nbsp; &nbsp;
-            <a href="#about" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">About</a>
+            <a href="#sheet" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">About</a>
             &nbsp; &nbsp;
-            <a href="#projects" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Projects</a>
+            <a href="#separator" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Projects</a>
             &nbsp; &nbsp;
             <a href="#links" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Links</a>
         </div>
+        &nbsp;
     </div>
 
-    <div class="header">
+    <div class="header" id="home">
         <div class="title">
             <div class="title-container">
                 <h1>Yochran</h1>
@@ -35,7 +39,86 @@
         </div>
     </div>
 
-    <div class="sheet"></div>
+    <a id="scroll-logo"><i class="fas fa-arrow-circle-down"></i></a>
+    <div class="sheet" id="sheet"></div>
+
+    <div class="more">
+        <div class="about-me" id="about">
+            <h1>About Me</h1>
+
+            <h2>
+                I'm an independent software & web developer from the United States. I'm 15 years old,
+                <br>
+                and I enjoy doing the basic 15 year old things, skating, drumming, gaming, and of course,
+                <br>
+                programming.
+            </h2>
+        </div>
+
+        &nbsp;
+        <div class="separator"></div>
+
+        <div class="projects" id="projects">
+            <h1>Featured Projects</h1>
+
+            <a class="repo-yocore" href="https://github.com/Yochran/yoCore">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=yoCore&theme=dark">
+            </a>
+
+            <a class="repo-yobot-new" href="https://github.com/Yochran/yoBot-NEW">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=yoBot-NEW&theme=dark">
+            </a>
+
+            <div id="spacer"></div>
+
+            <a class="repo-misc-projects" href="https://github.com/Yochran/Misc-Projects">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=Misc-Projects&theme=dark">
+            </a>
+
+            <a class="repo-yowarps" href="https://github.com/Yochran/yoWarps">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=yoWarps&theme=dark">
+            </a>
+        </div>
+
+        &nbsp;
+        <div id="spacer"></div>
+        <div class="separator"></div>
+
+        <div class="links" id="links">
+            <h1>Links</h1>
+
+            <a class="logo-github" href="https://github.com/Yochran">
+                <img src="imgs/icons8-github-256.png" style="width: 128px; height: 128px;">
+            </a>
+
+            <a class="logo-youtube" href="https://www.youtube.com/channel/UCa37E355Fi8szL8tfxHmXlQ">
+                <img src="imgs/icons8-youtube-squared-256.png" style="width: 128px; height: 128px;">
+            </a>
+
+            <a class="logo-instagram" href="https://instagram.com/yochran">
+                <img src="imgs/icons8-instagram-circle-256.png" style="width: 128px; height: 128px;">
+            </a>
+
+            <a class="logo-twitter" href="https://twitter.com/y0chran">
+                <img src="imgs/icons8-twitter-256.png" style="width: 128px; height: 128px;">
+            </a>
+        </div>
+
+        &nbsp;
+        <div id="spacer"></div>
+        <div class="separator"></div>
+        
+        <div class="footer">
+            &nbsp;
+            <h1>
+                Website coded by 
+                <a href="https://github.com/Yochran" style="color: #9cff75; text-decoration: underline;">Yochran</a>
+            </h1>
+            &nbsp;
+        </div>
+
+        <div class="separator"></div>
+    </div>
 
     <script type="text/javascript" src="script/script.js"></script>
 </body>
