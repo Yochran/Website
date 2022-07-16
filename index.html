@@ -1,52 +1,121 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta about="Yochran - Software Developer, Front-end Web Developer, Discord & Minecraft Developer">
+    <meta about="Yochran - Software Engineer, Front-end Web Developer, Malware Developer & Analyst, Discord & Minecraft Developer">
     <meta name="author" content="Yochran">
-    <meta name="description" content="Yochran - Software Developer, Front-end Web Developer, Discord & Minecraft Developer">
+    <meta name="description" content="Yochran - Software Engineer, Front-end Web Developer, Malware Developer & Analyst, Discord & Minecraft Developer">
 
     <title>Yochran | Home</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
-    <h1 id="loading"><b>Loading...</b></h1>
-    <div class="main">
-        <div id="main-container">
-            <h1 id="title"><b>I'm Yochran</b></h1>
-            <h2>An independent software & web developer.</h2>
-            &nbsp;
-            <button id="load-info">Click for more info.</button>
-            <div id="spacer">&nbsp;</div>
-            <button id="dark-theme">Click to enable dark theme.</button>
+    <div id="background"></div>
+
+    <div class="nav-bar" id="nav-bar">
+        &nbsp;
+        <div class="nav-buttons-container">
+            <a href="#home" class="nav-title" style="text-decoration: none; font-size: 1.5rem;">Yochran</a>
+
+            <a href="#home" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Home</a>
+            &nbsp; &nbsp;
+            <a href="#sheet" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">About</a>
+            &nbsp; &nbsp;
+            <a href="#separator" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Projects</a>
+            &nbsp; &nbsp;
+            <a href="#links" class="nav-button" style="text-decoration: none; font-size: 1.5rem;">Links</a>
+        </div>
+        &nbsp;
+    </div>
+
+    <div class="header" id="home">
+        <div class="title">
+            <div class="title-container">
+                <h1>Yochran</h1>
+                <h2>- Software Engineer</h2>
+            </div>
         </div>
     </div>
 
-    <div class="info">
-        <div id="info-container">
-            <h1 id="title"><b>About Me:</b></h1>
-            <p>I'm an independent software & web developer from the United States. I'm 16 years old, and currently attending High-School.</p>
-            <p><b>I know 11 languages. Java, JavaScript, TypeScript, Kotlin, Python, C, C++, HTML, CSS, C# & VBScript.</b></p>
-            <button id="load-links">Click for my links.</button>
-            <div id="spacer">&nbsp;</div>
-            <button id="load-main">Click to go back.</button>
+    <a id="scroll-logo"><i class="fas fa-arrow-circle-down"></i></a>
+    <div class="sheet" id="sheet"></div>
+
+    <div class="more">
+        <div class="about-me" id="about">
+            <h1>About Me</h1>
+
+            <h2>
+                I'm an independent developer from the United States. I'm 16 years old,
+                <br>
+                and I enjoy doing the basic 16 year old things, lifting weights, drumming, playing ball, and of course,
+                <br>
+                programming.
+            </h2>
         </div>
 
         &nbsp;
+        <div class="separator"></div>
 
-        <div id="links-container">
-            <a href="https://discord.com/users/350718252076367874">
-                <img id="img" src="imgs/discord.png">
-            </a>
-            <a href="https://github.com/Yochran">
-                <img id="img" src="imgs/github.png">            
-            </a>
-            <a href="https://youtube.com/https://www.youtube.com/channel/UCa37E355Fi8szL8tfxHmXlQ">
-                <img id="img" src="imgs/youtube.webp">
+        <div class="projects" id="projects">
+            <h1>Featured Projects</h1>
+
+            <a class="repo-yocore" href="https://github.com/Yochran/cml">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=cml&theme=dark">
             </a>
 
-            <h2 id="debate" href="https://discord.gg/debate"><b>Christ Centered</b></h2>
+            <a class="repo-yobot-new" href="https://github.com/Yochran/yoCore">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=yoCore&theme=dark">
+            </a>
+
+            <div id="spacer"></div>
+
+            <a class="repo-misc-projects" href="https://github.com/Christ-Centered/ChristCentered-Economy">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Christ-Centered&repo=ChristCentered-Economy&theme=dark">
+            </a>
+
+            <a class="repo-yowarps" href="https://github.com/Yochran/sit">
+                <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yochran&repo=sit&theme=dark">
+            </a>
         </div>
+
+        &nbsp;
+        <div id="spacer"></div>
+        <div class="separator"></div>
+
+        <div class="links" id="links">
+            <h1>Links</h1>
+
+            <a class="logo-github" href="https://github.com/Yochran">
+                <img src="imgs/icons8-github-256.png" style="width: 128px; height: 128px;">
+            </a>
+
+            <a class="logo-youtube" href="https://www.youtube.com/channel/UCa37E355Fi8szL8tfxHmXlQ">
+                <img src="imgs/icons8-youtube-squared-256.png" style="width: 128px; height: 128px;">
+            </a>
+
+            <a class="logo-instagram" href="https://instagram.com/yochran">
+                <img src="imgs/icons8-instagram-circle-256.png" style="width: 128px; height: 128px;">
+            </a>
+        </div>
+
+        &nbsp;
+        <div id="spacer"></div>
+        <div class="separator"></div>
+        
+        <div class="footer">
+            &nbsp;
+            <h1>
+                Website coded by 
+                <a href="https://github.com/Yochran" style="color: #9cff75; text-decoration: underline;">Yochran</a>
+            </h1>
+            &nbsp;
+        </div>
+
+        <div class="separator"></div>
     </div>
+
     <script type="text/javascript" src="script/script.js"></script>
 </body>
+</html>
